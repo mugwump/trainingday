@@ -4,6 +4,8 @@ schlecht geschlafen. Beschlossen, diese Schlappe nicht auf mir sitzen zu lassen 
 
 Samstag, 07.05.2011, 7:30Uhr
 ———
+Her mit einem schnellen Anwendungsrahmen! Suspenders (https://github.com/thoughtbot/suspenders) bringt das richtige Set für diesen Fall mit (rails3, ein vernünftiger Testingstack mit cucumber, capybare, factory_girl usw.) Diesmal kein mongoDB/mongoid: Das ganze ist nicht dokumenten-lastig, hat aber viele Relationen, da ist mysql die bessere sichere Wahl. Rasch die weiteren Rahmenbedingungen abgesteckt: deployment auf heroku (billig, einfach), das github-projekt ist rasch angelegt. Server läuft, das testenvironment läuft auch, sowohl die specs als auch die Features als auch factory-girl, man kann sich bereits registrieren und einlochen - nice headstart! fangen wir also damit an, die Features zu beschreiben!
 
-Her mit einem schnellen Anwendungsrahmen! Suspenders (https://github.com/thoughtbot/suspenders) bringt das richtige Set für diesen Fall mit (rails3, ein vernünftiger Testingstack mit cucumber, capybare, factory_girl usw.) Diesmal kein mongoDB/mongoid: Das ganze ist nicht dokumenten-lastig, hat aber viele Relationen, da ist mysql die bessere sichere Wahl. Rasch die weiteren Rahmenbedingungen abgesteckt: deployment auf heroku (billig, einfach), das github-projekt ist rasch angelegt, 
+ 
+
 

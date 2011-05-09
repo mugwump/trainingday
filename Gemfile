@@ -16,6 +16,12 @@ gem "mysql"
 gem "flutie"
 gem "dynamic_form"
 
+gem "transitions", :require => ["transitions", "active_record/transitions"]
+
+gem "chronic"
+gem "tickle"
+gem "recurrence"
+
 # RSpec needs to be in :development group to expose generators
 # and rake tasks without having to type RAILS_ENV=test.
 group :development, :test do
