@@ -1,10 +1,13 @@
-Samstag, 07.05.2011, 6:53Uhr
+Trainingday
 -------
-schlecht geschlafen. Beschlossen, diese Schlappe nicht auf mir sitzen zu lassen und als kleine, übersichtliche Beispielanwendung Trainingday zu entwickeln. TrainingDay spukt mir schon eine ganze Weile im kopf rum: Ich spiele Basketball und es gibt jeden Dienstag und jeden Donnerstag immer das Problem: Ist die Halle auf, wer kommt, sind wir genug, damit wir spielen können? Diese Infos werden jetzt meistens mit Mailinglisten&oder über Standardwebkalender verwaltet, aber schicker wäre eine kleine Anwendung, in die man einen Training eingeben kann, Kollegen zu diesem Training einladen kann, Trainingstage verwalten kann, um dann jeden Trainingsabend zu sehen, wer zu- und wer abgesagt hat. 
+You know that: You're looking forward to playing Volleyball or basketball or whatever, you come into the gymn and there is nobody there except you and the other guy who was stupid enough to think that there would be enough people there to play.
 
-Samstag, 07.05.2011, 7:30Uhr
-———
-Her mit einem schnellen Anwendungsrahmen! Suspenders (https://github.com/thoughtbot/suspenders) bringt das richtige Set für diesen Fall mit (rails3, ein vernünftiger Testingstack mit cucumber, capybare, factory_girl usw.) Diesmal kein mongoDB/mongoid: Das ganze ist nicht dokumenten-lastig, hat aber viele Relationen, da ist mysql die bessere sichere Wahl. Rasch die weiteren Rahmenbedingungen abgesteckt: deployment auf heroku (billig, einfach), das github-projekt ist rasch angelegt. Server läuft, das testenvironment läuft auch, sowohl die specs als auch die Features als auch factory-girl, man kann sich bereits registrieren und einlochen - nice headstart! fangen wir also damit an, die Features zu beschreiben!
+That is where a myriad of hacks like mailinglists, web-calendars, excel-lists etc. come in that try to keep track of who's coming in on a given trainingday and which lame sucker will stay put on the couch. And are you enough to play? 
+
+Trainingday helps you with that: It keeps track of your players and your trainingdays, sends out reminders and collects the responses: An hour before the training it sends out a report to all your teammembers with the aggregated responses: You will see with one glance if it makes sense to get up from the couch or if you should get up right now and play!
+ 
+
+
 
  
 
